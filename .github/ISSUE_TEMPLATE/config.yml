@@ -1,0 +1,4 @@
+contact_links:
+  - name: themes.textpattern.com website issue
+    url: https://github.com/textpattern/textpattern-themes-website/issues/new?template=report-a-website-issue.md
+    about: Create a report to help us improve the Textpattern theme website (not specifically related to a theme listing).

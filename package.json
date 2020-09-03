@@ -1,0 +1,20 @@
+{
+  "name": "textpattern-curated-themes-list",
+  "description": "A curated list of Textpattern themes, in JSON format.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textpattern/textpattern-curated-themes-list"
+  },
+  "bugs": {
+    "url": "https://github.com/textpattern/textpattern-curated-themes-list/issues"
+  },
+  "devDependencies": {
+    "@prantlf/jsonlint": "10.2.0"
+  },
+  "scripts": {
+    "jsonlint": "jsonlint -q library-of-themes/*.json",
+    "test": "npm run jsonlint"
+  },
+  "license": "MIT"
+}
