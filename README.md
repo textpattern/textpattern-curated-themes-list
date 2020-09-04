@@ -16,22 +16,29 @@ The Textpattern themes website digests the information for each card to provide 
   "repositories": [
     {
       "repoType": "homepage",
-      "repoUrl": "https://example.com/abc_example.html"
+      "repoUrl": "https://example.com/example-theme/"
     },
     {
       "repoType": "github",
-      "repoUrl": "https://github.com/exampleuser/abc_example"
+      "repoUrl": "https://github.com/exampleuser/example-theme"
     },
     {
       "repoType": "bitbucket",
-      "repoUrl": "https://bitbucket.org/exampleuser/abc_example"
+      "repoUrl": "https://bitbucket.org/exampleuser/example-theme"
     },
     {
       "repoType": "gitlab",
-      "repoUrl": "https://gitlab.com/exampleuser/abc_example"
+      "repoUrl": "https://gitlab.com/exampleuser/example-theme"
     }
   ],
-  TODO
+  "version": "2.2.0",
+  "datePublished": "2020-09-04",
+  "downloadUrl": "https://example.com/example-theme/download.zip",
+  "demoUrl": "https://example.com/example-theme/demo/",
+  "require": {
+    "abc_extra_example1": ">=2.0.0",
+    "abc_extra_example2": "1.5.1"
+  }
 }
 ```
 
@@ -39,11 +46,24 @@ A [JSON template](https://raw.githubusercontent.com/textpattern/textpattern-cura
 
 ### Required entries
 
-TODO
+* `name`:\
+  The name of the theme.
+* `version`:\
+  In `semver` format (e.g. `1.3.8`).
+* `downloadUrl`:\
+  A URL endpoint to download the theme source code (in `.zip` format).
 
 ### Example minimum structure
 
-TODO
+This is the minimum that is required in each JSON file:
+
+```JSON
+{
+  "name": "example",
+  "version": "2.2.0",
+  "downloadUrl": "https://example.com/example-theme/download.zip"
+}
+```
 
 ### Optional (but recommended) entries
 
