@@ -36,8 +36,8 @@ The Textpattern themes website digests the information for each card to provide 
   "downloadUrl": "https://example.com/example-theme/download.zip",
   "demoUrl": "https://example.com/example-theme/demo/",
   "require": {
-    "abc_extra_example1": ">=2.0.0",
-    "abc_extra_example2": "1.5.1"
+    "abc_example1": ">=2.0.0",
+    "abc_example2": "1.5.1"
   }
 }
 ```
@@ -49,9 +49,9 @@ A [JSON template](https://raw.githubusercontent.com/textpattern/textpattern-cura
 * `name`:\
   The name of the theme.
 * `version`:\
-  In `semver` format (e.g. `1.3.8`).
+  Latest theme version number in `semver` format (e.g. `1.3.8`).
 * `downloadUrl`:\
-  A URL endpoint to download the theme source code (in `.zip` format).
+  A URL endpoint to download the latest theme version’s source code (in `.zip` format).
 
 ### Example minimum structure
 
@@ -67,11 +67,12 @@ This is the minimum that is required in each JSON file:
 
 ### Optional (but recommended) entries
 
-TODO
-
-### Manifests for themes
-
-TODO
+* `repositories`:\
+  One or more code repositories where the the project is maintained. For each entry, a `repoType` and `repoUrl` must be provided. For `repoType` expected values are either `homepage` (i.e. page on an author's website specifically about the plugin), `github`, `bitbucket` or `gitlab`.
+* `datePublished`:\
+  Release date (in ISO 8601 `yyyy-mm-dd` format) of latest theme version.
+* `require`:\
+  If this theme requires one or more specific plugins to be installed in order to work, state the plugins and version requirements.
 
 ### Linting
 
