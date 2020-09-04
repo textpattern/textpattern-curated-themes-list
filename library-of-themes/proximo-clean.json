@@ -1,0 +1,12 @@
+{
+  "name": "proximo-clean",
+  "repositories": [
+    {
+      "repoType": "github",
+      "repoUrl": "https://github.com/hilaryquinn/ProximoClean"
+    }
+  ],
+  "version": "1.0.0",
+  "datePublished": "2020-05-24",
+  "downloadUrl": "https://github.com/hilaryquinn/ProximoClean/archive/v1.0.zip"
+}
