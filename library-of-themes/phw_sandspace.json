@@ -1,0 +1,12 @@
+{
+  "name": "phw_sandspace",
+  "repositories": [
+    {
+      "repoType": "homepage",
+      "repoUrl": "https://emps.l-c-n.com/development/phw_sandSpace"
+    }
+  ],
+  "version": "4.8.3",
+  "datePublished": "2020-08-12",
+  "downloadUrl": "https://l-c-n.com/file_download/1/phw_sandspace4.8.3.zip"
+}
