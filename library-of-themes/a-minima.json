@@ -1,0 +1,13 @@
+{
+  "name": "a-minima",
+  "repositories": [
+    {
+      "repoType": "{github}",
+      "repoUrl": "https://github.com/cara-tm/a-minima"
+    }
+  ],
+  "version": "5.3.0",
+  "datePublished": "2019-12-27",
+  "downloadUrl": "https://github.com/cara-tm/a-minima/releases/download/v5.3/a-minima.zip",
+  "demoUrl": "https://a-minima.alwaysdata.net"
+}
