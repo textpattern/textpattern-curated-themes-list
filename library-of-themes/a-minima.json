@@ -2,7 +2,7 @@
   "name": "a-minima",
   "repositories": [
     {
-      "repoType": "{github}",
+      "repoType": "github",
       "repoUrl": "https://github.com/cara-tm/a-minima"
     }
   ],
