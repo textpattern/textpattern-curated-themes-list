@@ -1,0 +1,12 @@
+{
+  "name": "textpattern-default-theme",
+  "repositories": [
+    {
+      "repoType": "github",
+      "repoUrl": "https://github.com/textpattern/textpattern-default-theme"
+    }
+  ],
+  "version": "4.8.2",
+  "datePublished": "2020-07-10",
+  "downloadUrl": "https://github.com/textpattern/textpattern-default-theme/releases/download/4.8.2/dist.zip"
+}
