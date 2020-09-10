@@ -25,12 +25,11 @@ xxxxx
       "repoType": "{homepage-github-bitbucket-gitlab}",
       "repoUrl": "{url-of-repo-project}"
     }
-  ],
-  TODO
+  ]
 }
 ```
 
-**Textpattern min compatibility of latest theme version, if known**
+**Textpattern minimum compatibility of latest theme version, if known**
 
 Minimum Textpattern version compatibility:
 
