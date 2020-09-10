@@ -25,7 +25,15 @@ xxxxx
       "repoType": "{homepage-github-bitbucket-gitlab}",
       "repoUrl": "{url-of-repo-project}"
     }
-  ]
+  ],
+  "version": "{semver}",
+  "datePublished": "{yyyy}-{mm}-{dd}",
+  "downloadUrl": "{url-of-theme-download}",
+  "demoUrl": "{url-of-theme-demo}",
+  "require": {
+    "{prefix_plugin-name}": "{semver}",
+    "{prefix_plugin-name}": "{semver}"
+  }
 }
 ```
 
