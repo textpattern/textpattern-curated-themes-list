@@ -1,6 +1,6 @@
 # textpattern-curated-themes-list
 
-[![Build Status](https://travis-ci.com/textpattern/textpattern-curated-themes-list.svg?branch=master)](https://travis-ci.com/textpattern/textpattern-curated-themes-list)
+[![Build Status](https://travis-ci.com/textpattern/textpattern-curated-themes-list.svg)](https://travis-ci.com/textpattern/textpattern-curated-themes-list)
 
 A curated list of [Textpattern CMS](https://textpattern.com) themes listed in the [Textpattern themes website](https://github.com/textpattern/textpattern-themes-website).
 
